@@ -1,0 +1,32 @@
+<div class="center">
+
+	<br><br><br>
+
+	<h3>スクレイピング</h3>
+
+	<input placeholder="URLを入力" autofocus="on"><br><br>
+
+
+<form action="scrape" method="get">
+	<button type="">抽出!!</button>
+</form>
+
+	<h4>↓↓↓結果↓↓↓</h4>
+
+	<div class="contents">
+
+<% @elements.each do|element|%>
+
+      <%=link_to(element.inner_text,element[:href])%>
+
+<%end%>
+
+
+	</div>
+
+
+
+
+
+
+</div>

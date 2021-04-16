@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+	font-family :YuMincho, serif;
+}
+
+.center{
+	text-align: center;
+}
+
+input{
+	width: 20rem;
+	height: 2rem;
+	text-align: center;
+}
+
+.result{
+
+}
